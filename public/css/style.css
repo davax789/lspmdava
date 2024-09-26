@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Mengatur orientasi kolom */
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    background-color: #f8f8f8; /* Warna latar header */
+    padding: 20px; /* Spasi dalam header */
+    text-align: center; /* Teks di tengah */
+}
+
+.navbar {
+    background-color: #333; /* Warna latar navbar */
+    padding: 10px 0; /* Spasi dalam navbar */
+}
+
+.navbar ul {
+    list-style: none; /* Menghilangkan bullet point */
+    padding: 0; /* Menghilangkan padding */
+    margin: 0; /* Menghilangkan margin */
+    display: flex; /* Mengatur navbar menjadi flex */
+    justify-content: center; /* Mengatur konten navbar menjadi tengah */
+}
+
+.navbar ul li {
+    margin: 5px; /* Spasi antar item navbar */
+    margin-left: 90px;
+}
+
+.navbar ul li a {
+    color: white; /* Warna teks */
+    text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+.container {
+    display: flex; /* Mengatur container menjadi flex */
+}
+
+.sidebar {
+    width: 250px; /* Lebar sidebar */
+    background-color: #333; /* Warna latar sidebar */
+    color: white; /* Warna teks */
+    height: 100vh; /* Tinggi sidebar memenuhi viewport */
+    padding: 40px; /* Spasi dalam sidebar */
+    box-sizing: border-box; /* Mengatur box sizing */
+    position: fixed; /* Agar sidebar tetap di posisi */
+    top: 0;
+    left: 0;
+}
+
+.logo img {
+    width: 100px; /* Atur lebar gambar */
+    height: auto; /* Menjaga aspek rasio gambar */
+    margin-top: -30px; /* Menggunakan margin negatif untuk menarik gambar ke atas */
+    margin-left: 20px;
+}
+
+.content {
+    margin-left: 270px; /* Memberi jarak untuk sidebar */
+    padding: 20px; /* Spasi dalam konten utama */
+    
+}
+
+
+.sidebar ul {
+    list-style-type: none;
+    margin-top: 110px;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+    margin-left: -60px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+.company-name{
+    font-size: large;
+    font: Helvetica;
+    margin-left: 200px;
+}
+.sidebar h1 {
+    font-size: medium;
+    margin-left: 45px;
+    margin-top: 30px;
+    text-decoration: none; /* Menghapus underline */
+    color: white; /* Mengubah warna teks menjadi putih */
+    font-weight: normal; /* Menghapus efek bold */
+
+}
+.sidebar a {
+    text-decoration: none; /* Menghapus underline dari tautan */
+    color: white; /* Mengubah warna teks tautan menjadi putih */
+}
+
+.imgcontent {
+    
+    
+    margin-left: 350px; /* Memberi jarak untuk sidebar */
+    padding: 20px; /* Spasi dalam konten utama */
+    overflow: hidden; /* Mencegah konten keluar dari batas */
+    border: 2px solid #000; /* Hitam dengan ketebalan 2px */
+    border-radius: 10px; /* Sudut membulat */
+    margin-top: 20px;
+}
+
+.kliennih{
+    margin-left: 270px; /* Memberi jarak untuk sidebar */
+    padding: 20px; /* Spasi dalam konten utama */
+    margin: 20px;
+    overflow: hidden; /* Mencegah konten keluar dari batas */
+    border: 1px solid #f40707; /* Hitam dengan ketebalan 2px */
+    border-radius: 26px; /* Sudut membulat */
+}
+.underline{
+    text-decoration: none;
+}
+.kontakkami{
+    margin-left: 270px; /* Memberi jarak untuk sidebar */
+    padding: 20px; /* Spasi dalam konten utama */
+    margin: 20px;
+    overflow: hidden; /* Mencegah konten keluar dari batas */
+    border: 2px solid #00ff2f; /* Hitam dengan ketebalan 2px */
+    border-radius: 26px; /* Sudut membulat */
+}
